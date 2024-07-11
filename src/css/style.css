@@ -1,0 +1,313 @@
+/* Áreas */
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px #00000025;
+    text-shadow: 1px 6px 13px #6C768C;
+}
+
+.logo-empresa {
+    display: flex;
+    padding-right: 50px;
+    font-size: 18px;    
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6C768C;
+    font-size: 16px;
+    
+}
+.cadastro {
+    text-decoration: none;
+    background: #8e2424;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 1px 4px 4px #10182850;
+}
+
+.cadastro a {
+    color: #FFFFFF;
+}
+
+/* INTRODUCAO */
+
+.introducao {
+    text-align: center;
+}
+
+.texto h4 {
+    font-size: 16px;
+    color: #8E2424;    
+}
+
+.texto h1 {
+    font-size: 48px;
+    padding-top: 24px;
+}
+
+.texto p {
+    font-size: 20px;
+    padding-top: 24px;
+    color: #667085;
+    padding-bottom: 96px;
+}
+
+/* MÉTRICAS */
+
+.container {
+    max-width: 1280px;
+    margin: auto;  
+}
+
+.metricas {
+    gap: 32px;
+    display: flex;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.metricas h1 {
+    font-size: 60px;
+    color: #8E2424;    
+}
+
+.metricas h4 {
+    color: #101828;
+    font-size: 18px;
+}
+
+.metricas p {
+    font-size: 16px;
+    color: #667085;
+}
+
+/* Vagas Abertas */
+
+.Vagas-abertas {
+    padding-top: 96px;
+    text-align: center;
+}
+
+.Vagas-abertas h5 {
+    color: #8E2424;
+    background: #8E24240D;
+    display: inline;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.Vagas-abertas h1 {
+    font-size: 36px;
+    color: #101828;
+}
+
+.Vagas-abertas p {
+    color: #667085;
+    font-size: 20px;
+    padding-bottom: 64px;
+}
+
+.Vagas-abertas img {
+    padding-bottom: 64px;
+    width: 1216px 400px;
+}
+
+/* Vagas */
+.Vagas {
+    padding-bottom: 96px;
+    color: #101828;
+}
+
+.content {
+    margin: 0 450px;
+}
+
+.content h1 {
+    font-size: 20px;
+    padding-bottom: 64px;
+}
+
+.caixa {
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.caixa h2 {
+    font-size: 18px;
+}
+
+.prg {
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+}
+
+.caixa2 {
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.caixa2 h2 {
+    font-size: 18px;
+}
+
+.prg2 {
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+}
+
+.Software h2 {
+    padding: 32px 0;
+    font-size: 20px;
+}
+
+.caixa3 {
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.caixa3 h2 {
+    font-size: 18px;
+}
+
+.prg3 {
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+}
+
+.caixa4 {
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.caixa4 h2 {
+    font-size: 18px;
+}
+
+.prg4 {
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+}
+
+.caixa5 {
+    border: 1px solid #EAECF0;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.caixa5 h2 {
+    font-size: 18px;
+}
+
+.prg5 {
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+}
+
+/* DEPOIMENTO */
+.container {
+    padding-bottom: 96px;
+}
+
+.depoimento {   
+    background: #c3191908;
+    text-align: center;
+    padding: 64px;
+    border-radius: 16px;   
+}
+
+.depoimento h4 {
+    color: #8e2424;
+}
+
+.depoimento h1 {
+    color:#101828 ;
+    font-size: 36px;
+    padding-bottom: 32px;
+}
+
+.nome {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #101828;
+}
+
+.profissao {
+    padding-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 64px;
+    color: #667085;
+}
+
+.suporte {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+
+footer  {
+    color: #101828;
+    background: #F9FAFB;
+    padding: 96px;
+    text-align: center;
+}
+
+footer h6 {
+    color:#667085;
+    padding-bottom: 40px;
+    font-size: 18.5px;
+    font-weight: normal;
+}
+
+.dois {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-left: 650px;
+    padding-bottom: 32px;
+}
+
+input {
+    padding: 10px 100px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #EAECF0;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    
+    color: #98A2B3;
+    font-size: 13px;
+}
+
+
+
